@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+async-exit-stack = "*"
+async-generator = "*"
+pymongo = {extras = ["srv"],version = "*"}
+motor = "==2.0"
+python-dotenv = "==0.10.1"
+pyjwt = "==1.7"
+databases = "==0.2.1"
+python-slugify = "==3.0"
+pydantic = {extras = ["typing_extensions"],version = "*"}
+passlib = {extras = ["bcrypt"],version = "==1.7"}
+
+[requires]
+python_version = "3.6"
